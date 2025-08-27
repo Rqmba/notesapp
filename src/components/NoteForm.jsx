@@ -65,7 +65,7 @@ const NoteForm = ({ notes, setNotes }) => {
             options={[
               { value: "High", label: "🔴 High" },
               { value: "Medium", label: "🟡 Medium" },
-              { value: "High", label: "🟢 Low" },
+              { value: "Low", label: "🟢 Low" },
             ]}
           />
           <SelectInput
